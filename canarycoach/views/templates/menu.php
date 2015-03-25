@@ -1,24 +1,26 @@
 
-<nav class="tm-navbar uk-navbar uk-navbar-attached">
-  <div class="uk-container uk-container-left">
-    <a class="uk-navbar-brand uk-hidden-small" href="index.html"><img class="uk-margin uk-margin-remove" src="<?php echo $resources.'/img/canarycoach.png'?>" width="200" height="90" title="canarycoach" alt="canarycoach"></a>
-    <ul class="uk-navbar-nav uk-hidden-small">
-        <li>
-                        <!-- <a href="docs/modal.html">Registrarse</a> -->
-                        <!-- This is an anchor toggling the modal -->
-                        <a href="#my-idRegistrarse" data-uk-modal>Registrarse</a>
-                    </li>
-                    <li>
-                        <!-- <a href="docs/modal.html">Iniciar sesión</a> -->
-                        <a href="#my-idIniciarSesion" data-uk-modal>Iniciar sesión</a>
-                    </li>
-                    <li>
-                        <!-- <a href="docs/components.html">Ayuda</a> -->
-                        <a href="#my-idAyuda" data-uk-modal>Ayuda</a>
-                    </li>
-    </ul>
-  </div>
-</nav>
+<div data-uk-sticky>
+  <nav class="tm-navbar uk-navbar uk-navbar-attached">
+    <div class="uk-container uk-container-center" >
+      <a class="uk-navbar-brand uk-hidden-small" href="http://localhost/proyecto"><img class="uk-margin uk-margin-remove" src="<?php echo $resources.'/img/canarycoach.png'?>" width="200" height="90" title="canarycoach" alt="canarycoach"></a>
+      <ul class="uk-navbar-nav uk-hidden-small">
+          <li>
+                          <!-- <a href="docs/modal.html">Registrarse</a> -->
+                          <!-- This is an anchor toggling the modal -->
+                          <a href="#my-idRegistrarse" data-uk-modal>Registrarse</a>
+                      </li>
+                      <li>
+                          <!-- <a href="docs/modal.html">Iniciar sesión</a> -->
+                          <a href="#my-idIniciarSesion" data-uk-modal>Iniciar sesión</a>
+                      </li>
+                      <li>
+                          <!-- <a href="docs/components.html">Ayuda</a> -->
+                          <a href="#my-idAyuda" data-uk-modal>Ayuda</a>
+                      </li>
+      </ul>
+    </div>
+  </nav>
+</div>
 <!-- Esta es la ventana modal para Registrarse -->
         <div id="my-idRegistrarse" class="uk-modal">
             <div class="uk-modal-dialog">
