@@ -11,16 +11,15 @@
     </div>
 </div>
 
-<div id="owl-example" class="owl-carousel">
-  <div> Your Content </div>
-  <div> Your Content </div>
-  <div> Your Content </div>
-  <div> Your Content </div>
-  <div> Your Content </div>
-  <div> Your Content </div>
-  <div> Your Content </div>
-  ...
-</div>
-
-<div id="owl-demo" class="owl-carousel owl-theme">
+<div id="owl-demo" class="owl-carousel">
+    <div class="item">Item1</div>
+    <div class="item">Item2</div>
+    <div class="item">Item3</div>
+    <div class="item">Item4</div>
+    <div class="item">Item5</div>
+    <div class="item">Item6</div>
+    <div class="item">Item7</div>
+    <div class="item">Item8</div>
+    <div class="item">Item9</div>
+    <div class="item">Item10</div>
 </div>

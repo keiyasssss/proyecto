@@ -30,5 +30,6 @@
     <script src="<?php echo $resources.'/js/docs.js'?>"></script>
     <script src="<?php echo $resources.'/js/uikit.min.js' ?>"></script>
 
+    <link rel="stylesheet" href="<?php echo $resources.'/js/owl_demo_carousel.js' ?>">
   </head>
   <body class="tm-background">
