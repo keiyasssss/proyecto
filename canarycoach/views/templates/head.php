@@ -10,6 +10,17 @@
     <link rel="stylesheet" href="<?php echo $resources.'/css/docs.css' ?>">
     <link rel="stylesheet" href="<?php echo $resources.'/vendor/highlight/highlight.css' ?>">
     <link rel="stylesheet" href="<?php echo $resources.'/css/uikit.css' ?>">
+    <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href="<?php echo $resources.'/owl_carousel/owl-carousel/owl.carousel.css' ?>">
+ 
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="<?php echo $resources.'/owl_carousel/owl-carousel/owl.theme.css' ?>">
+ 
+    <!--  jQuery 1.7+  -->
+    <script src="<?php echo $resources.'/owl_carousel/assets/js/jquery-1.9.1.min.js' ?>"></script>
+ 
+    <!-- Include js plugin -->
+    <script src="<?php echo $resources.'/owl_corousel/owl-carousel/owl.carousel.js' ?>"></script>
     
     <script src="<?php echo $resources.'/vendor/jquery.js' ?>"></script>  
     <script src="<?php echo $resources.'/js/components/slideshow.js' ?>"></script>
