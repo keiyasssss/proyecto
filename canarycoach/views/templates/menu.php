@@ -3,7 +3,7 @@
     <li> <a href="http://localhost/proyecto"><img class="img-responsive" src="<?php echo $resources.'/img/canarycoach.png'?>" width="200" height="90" title="canarycoach" alt="canarycoach"></a></li>
     <li role="presentation"><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#registrarseModal">Registrarse</button></li>
     <li role="presentation"><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#iniciarSesionModal">Iniciar sesión</button></li>
-    <li role="presentation"><button class="btn btn-primary btn-lg" onclick=window.open("<?php echo $base_url; ?>/Contacto")>Contacto</button></li>
+    <li role="presentation"><button class="btn btn-primary btn-lg" onclick=window.open("<?php echo $base_url; ?>/Contacto","_self")>Contacto</button></li>
     <li role="presentation"><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ayudaModal">Ayuda</button></li>
   </ul>
 </div>
