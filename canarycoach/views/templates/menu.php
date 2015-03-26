@@ -1,94 +1,99 @@
-
-<div data-uk-sticky>
-  <nav class="tm-navbar uk-navbar uk-navbar-attached">
-    <div class="uk-container uk-container-center" >
-      <a class="uk-navbar-brand uk-hidden-small" href="http://localhost/proyecto"><img class="uk-margin uk-margin-remove" src="<?php echo $resources.'/img/canarycoach.png'?>" width="200" height="90" title="canarycoach" alt="canarycoach"></a>
-      <ul class="uk-navbar-nav uk-hidden-small">
-          <li>
-                          <!-- <a href="docs/modal.html">Registrarse</a> -->
-                          <!-- This is an anchor toggling the modal -->
-                          <a href="#my-idRegistrarse" data-uk-modal>Registrarse</a>
-                      </li>
-                      <li>
-                          <!-- <a href="docs/modal.html">Iniciar sesión</a> -->
-                          <a href="#my-idIniciarSesion" data-uk-modal>Iniciar sesión</a>
-                      </li>
-                      <li>
-                          <!-- <a href="docs/components.html">Ayuda</a> -->
-                          <a href="#my-idAyuda" data-uk-modal>Ayuda</a>
-                      </li>
-      </ul>
-    </div>
-  </nav>
+<div class="row">
+  <ul class="nav nav-pills">
+    <li> <a href="http://localhost/proyecto"><img class="img-responsive" src="<?php echo $resources.'/img/canarycoach.png'?>" width="200" height="90" title="canarycoach" alt="canarycoach"></a></li>
+    <li role="presentation"><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#registrarseModal">Registrarse</button></li>
+    <li role="presentation"><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#iniciarSesionModal">Iniciar sesión</button></li>
+    <li role="presentation"><button class="btn btn-primary btn-lg" onclick=window.open("<?php echo $base_url; ?>/Contacto")>Contacto</button></li>
+    <li role="presentation"><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ayudaModal">Ayuda</button></li>
+  </ul>
 </div>
-<!-- Esta es la ventana modal para Registrarse -->
-        <div id="my-idRegistrarse" class="uk-modal">
-            <div class="uk-modal-dialog">
-                <a class="uk-modal-close uk-close"></a>
-                
-                <form class="uk-form">
-                    <fieldset data-uk-margin>
-                        <legend>Registro</legend>
-                        <div class="uk-form-row">
-                            <label class="uk-form-label" for="">Introduzca el nombre de usuario</label>
-                            <div class="uk-form-controls">
-                                <input type="text" placeholder="usuario">
-                                <!-- <span class="uk-form-help-inline">El nombre es incorrecto.</span> -->
-                            </div>
-                            
-                        </div>
-                        <div class="uk-form-row">
-                            <label class="uk-form-label" for="">Introduzca la contraseña</label>
-                            <div class="uk-form-controls">
-                                <input type="password" placeholder="contraseña">
-                                <!-- <span class="uk-form-help-inline">La contraseña es incorrecta.</span> -->
-                            </div>
-                        </div>
-                        <button class="uk-button">Enviar</button>
-                    </fieldset>
-                </form>
-            </div>
-        </div>
 
-        <!-- Esta es la ventana modal para Iniciar sesion -->
-        <div id="my-idIniciarSesion" class="uk-modal">
-            <div class="uk-modal-dialog">
-                <a class="uk-modal-close uk-close"></a>
-                
-                <form class="uk-form">
-                    <fieldset data-uk-margin>
-                        <legend>Iniciar sesión</legend>
-                        <div class="uk-form-row">
-                            <button class="uk-button" type="button">Inicia sesión con Facebook</button>
-                        </div>
-                        <div class="uk-form-row">
-                            <button class="uk-button" type="button">Inicia sesión con Google</button>
-                        </div>
-                        <hr>
-                        <div class="uk-form-row">
-                            <label class="uk-form-label" for="">Introduzca el e-mail</label>
-                            <div class="uk-form-controls">
-                                <input type="text" placeholder="correo electrónico">
-                                <!-- <span class="uk-form-help-inline">El nombre es incorrecto.</span> -->
-                            </div>
-                        </div>
-                        <div class="uk-form-row">
-                            <label class="uk-form-label" for="">Introduzca la contraseña</label>
-                            <div class="uk-form-controls">
-                                <input type="password" placeholder="contraseña">
-                                <!-- <span class="uk-form-help-inline">La contraseña es incorrecta.</span> -->
-                            </div>
-                        </div>
-                        <button class="uk-button">Iniciar sesión</button>
-                    </fieldset>
-                </form>
-            </div>
-        </div>
+<!-- Modal registrarse -->
+<div class="modal fade" id="registrarseModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Registrarse</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="InputNombreReg">Nombre:</label>
+            <input type="text" class="form-control" id="InputNombreReg" placeholder="Introduzca su nombre">
+          </div>
+          <div class="form-group">
+            <label for="InputEmailReg">Correo electrónico:</label>
+            <input type="email" class="form-control" id="InputEmailReg" placeholder="Introduzca su correo">
+          </div>
+          <div class="form-group">
+            <label for="InputContraseñaReg">Contraseña:</label>
+            <input type="password" class="form-control" id="InputContraseñaReg" placeholder="Introduzca su contraseña">
+          </div>
+          <div class="form-group">
+            <label for="InputContraseñaReg2">Repita su contraseña:</label>
+            <input type="password" class="form-control" id="InputContraseñaReg2" placeholder="Repita su contraseña">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+        <button type="button" class="btn btn-primary">Registrarse</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
-        <!-- Esta es la ventana modal para Ayuda -->
-        <div id="my-idAyuda" class="uk-modal">
-            <div class="uk-modal-dialog">
-                <a class="uk-modal-close uk-close"></a>
-                Esto es una prueba de ventana modal de la Ayuda
-            </div>
-        </div>
+<!-- Modal iniciar sesion -->
+<div class="modal fade" id="iniciarSesionModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Iniciar sesion</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <button type="button" class="btn btn-primary">Inisiar Sesión con Facebook</button>
+            <button type="button" class="btn btn-danger">Inisiar Sesión con Google Pus</button>
+          </div>
+          <div class="form-group">
+            <label for="InputNombreIni">Nombre:</label>
+            <input type="text" class="form-control" id="InputNombreIni" placeholder="Introduzca su nombre">
+          </div>
+          <div class="form-group">
+            <label for="InputEmailIni">Correo electrónico:</label>
+            <input type="email" class="form-control" id="InputEmailIni" placeholder="Introduzca su correo">
+          </div>
+          <div class="form-group">
+            <label for="InputContraseñaIni">Contraseña:</label>
+            <input type="password" class="form-control" id="InputContraseñaIni" placeholder="Introduzca su contraseña">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+        <button type="button" class="btn btn-primary">Iniciar Sesión</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- Modal ayuda -->
+<div class="modal fade" id="ayudaModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Iniciar sesion</h4>
+      </div>
+      <div class="modal-body">
+        Aqui la ayuda
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">cerrar</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

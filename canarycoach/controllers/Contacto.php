@@ -12,7 +12,7 @@ class Contacto extends CI_Controller {
         $this->load->view('templates/head', $data);
         $this->load->view('templates/menu');
         $this->load->view('contacto');
-	$this->load->view('templates/footer', $data);
+	    $this->load->view('templates/footer', $data);
     }
 }  
    
