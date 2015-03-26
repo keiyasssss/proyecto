@@ -5,5 +5,25 @@
       <li>G+</li>
     </ul>
   </div>
+  <script> 
+      $(document).ready(function() {
+        $("#owl-demo").owlCarousel({
+
+            navigation : false, // Show next and prev buttons
+            slideSpeed : 300,
+            paginationSpeed : 400,
+            singleItem:true,
+            autoPlay:5000
+
+        });
+        
+        
+        $('[data-toggle="tooltip"]').tooltip();
+        
+            
+      });
+      
+    </script>
   </body>
+
 </html>
