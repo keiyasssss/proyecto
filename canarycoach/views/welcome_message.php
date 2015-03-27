@@ -48,7 +48,9 @@
 		                <option value="OPTION1" >OPTION1</option>  
 		                <option value="OPTION2" >La OPTION2</option>  
 		            </select>
-		            <button type="button" class="btn btn-primary">Buscar</button>
+		            <button type="button" class="btn btn-primary">
+		            	<span class="glyphicon glyphicon-search"></span>
+		            </button>
 		        </div>        
 		    </form>
 		</div>
@@ -62,7 +64,7 @@
 		        <img class="img-responsive" src="<?php echo $resources.'/img/clase_aerobic.jpg'?>" title="Clases de Aerobic" alt="ClasesDeAerobic">
 		        <br/>
 		        <p>Se imparten clase de aerobic 2 veces por semana. Monitor titulado y con 5 años de experiencia.</p>
-		        <p><a class="btn btn-primary btn-lg" href="#" role="button">Ver +</a></p>
+		        <p><a class="btn btn-primary btn-lg" href="#" role="button"><span class="glyphicon glyphicon-plus"></span></a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -75,7 +77,7 @@
 		        <img class="img-responsive" src="<?php echo $resources.'/img/clase_aerobic.jpg'?>" title="Clases de Aerobic" alt="ClasesDeAerobic">
 		        <br/>  
 		        <p>Se imparten clase de aerobic 2 veces por semana. Monitor titulado y con 5 años de experiencia.</p>
-		        <p><a class="btn btn-primary btn-lg" href="#" role="button">Ver +</a></p>
+		        <p><a class="btn btn-primary btn-lg" href="#" role="button"><span class="glyphicon glyphicon-plus"></span></a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -88,7 +90,7 @@
 		      	<img class="img-responsive" src="<?php echo $resources.'/img/clase_aerobic.jpg'?>" title="Clases de Aerobic" alt="ClasesDeAerobic">
 		      	<br/> 
 		        <p>Se imparten clase de aerobic 2 veces por semana. Monitor titulado y con 5 años de experiencia.</p>
-		        <p><a class="btn btn-primary btn-lg" href="#" role="button">Ver +</a></p>
+		        <p><a class="btn btn-primary btn-lg" href="#" role="button"><span class="glyphicon glyphicon-plus"></span></a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -101,7 +103,7 @@
 		      	<img class="img-responsive" src="<?php echo $resources.'/img/clase_aerobic.jpg'?>" title="Clases de Aerobic" alt="ClasesDeAerobic">
 		      	<br/> 
 		        <p>Se imparten clase de aerobic 2 veces por semana. Monitor titulado y con 5 años de experiencia.</p>
-		        <p><a class="btn btn-primary btn-lg" href="#" role="button">Ver +</a></p>
+		        <p><a class="btn btn-primary btn-lg" href="#" role="button"><span class="glyphicon glyphicon-plus"></span></a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -139,7 +141,7 @@
 		                <option value="OPTION1" >OPTION1</option>  
 		                <option value="OPTION2" >La OPTION2</option>  
 		            </select>
-		            <button type="button" class="btn btn-primary">Buscar</button>
+		            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
 		        </div>        
 		    </form>
 		</div>
@@ -153,7 +155,7 @@
 		        <img class="img-responsive" src="<?php echo $resources.'/img/clase_escalada.jpg'?>" title="Clases de Escalada" alt="ClasesDeEscalada">
 		      	<br/>
 		        <p>Se imparten clase de escalada 2 veces por semana. Monitor titulado y con 15 años de experiencia.</p>
-		        <p><a class="btn btn-primary btn-lg" href="#" role="button">Ver +</a></p>
+		        <p><a class="btn btn-primary btn-lg" href="#" role="button"><span class="glyphicon glyphicon-plus"></span></a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -165,7 +167,7 @@
 		        <img class="img-responsive" src="<?php echo $resources.'/img/clase_escalada.jpg'?>" title="Clases de Escalada" alt="ClasesDeEscalada">
 		      	<br/>
 		        <p>Se imparten clase de escalada 2 veces por semana. Monitor titulado y con 15 años de experiencia.</p>
-		        <p><a class="btn btn-primary btn-lg" href="#" role="button">Ver +</a></p>
+		        <p><a class="btn btn-primary btn-lg" href="#" role="button"><span class="glyphicon glyphicon-plus"></span></a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -177,7 +179,7 @@
 		        <img class="img-responsive" src="<?php echo $resources.'/img/clase_escalada.jpg'?>" title="Clases de Escalada" alt="ClasesDeEscalada">
 		      	<br/>
 		        <p>Se imparten clase de escalada 2 veces por semana. Monitor titulado y con 15 años de experiencia.</p>
-		        <p><a class="btn btn-primary btn-lg" href="#" role="button">Ver +</a></p>
+		        <p><a class="btn btn-primary btn-lg" href="#" role="button"><span class="glyphicon glyphicon-plus"></span></a></p>
 		      </div>
 		    </div>
 		  </div>
@@ -189,7 +191,7 @@
 		        <img class="img-responsive" src="<?php echo $resources.'/img/clase_escalada.jpg'?>" title="Clases de Escalada" alt="ClasesDeEscalada">
 		      	<br/>
 		        <p>Se imparten clase de escalada 2 veces por semana. Monitor titulado y con 15 años de experiencia.</p>
-		        <p><a class="btn btn-primary btn-lg" href="#" role="button">Ver +</a></p>
+		        <p><a class="btn btn-primary btn-lg" href="#" role="button"><span class="glyphicon glyphicon-plus"></span></a></p>
 		      </div>
 		    </div>
 		  </div>
